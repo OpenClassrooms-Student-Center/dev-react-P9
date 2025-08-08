@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import '../../styles/PlantItem.css'
 
-function PlantItem({ cover, name, price, bestSale, id, onAddToCart }) {
+function PlantItem({ cover, name, price, id, onAddToCart }) {
 	const [showAnimation, setShowAnimation] = useState(false)
 
 	const handleAddToCart = (e) => {
@@ -19,7 +19,6 @@ function PlantItem({ cover, name, price, bestSale, id, onAddToCart }) {
 		<div className='lmj-plant-item-card'>
 			<Link to={`/plant/${id}`} className='lmj-plant-item-link'>
 				<img src={cover} alt={`${name} cover`} className='lmj-plant-item-cover' />
-				{bestSale && <span className='lmj-sales'>Soldes</span>}
 			</Link>
 			<div className='lmj-plant-item-content'>
 				<div className='lmj-plant-item-header'>
