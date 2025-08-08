@@ -6,11 +6,11 @@ Une application React moderne pour la vente de plantes d'intérieur et d'extéri
 
 ## 🚀 Technologies Utilisées
 
-- **React 19** - Bibliothèque UI
-- **TypeScript** - Typage statique
-- **Vite** - Build tool et dev server
-- **React Router DOM** - Navigation entre pages
-- **ESLint** - Linting du code
+- **React 19** 
+- **TypeScript**
+- **Vite**
+- **React Router DOM**
+- **ESLint**
 
 ## 📁 Structure du Projet
 
